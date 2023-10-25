@@ -12,13 +12,13 @@ Este proyecto es un sistema simple que simula una biblioteca desarrollada en Pro
 ## Uso
 
 1. Carga el archivo `biblioteca.pl` en tu entorno Prolog.
-2. Utiliza la función `añadir_libro(Titulo, Autor, Genero)` para añadir un nuevo libro a la biblioteca.
+2. Utiliza la función `annadir_libro(Titulo, Autor, Genero)` para añadir un nuevo libro a la biblioteca.
 3. Utiliza la función `buscar_por_autor(Autor, Resultados)` para obtener una lista de libros de un autor específico.
 4. Utiliza la función `buscar_por_genero(Genero, Resultados)` para obtener una lista de libros de un género específico.
 
 ## Ejemplo
 
 ```prolog
-?- añadir_libro('Fahrenheit 451', 'Ray Bradbury', 'Ciencia Ficción').
+?- annadir_libro('Fahrenheit 451', 'Ray Bradbury', 'Ciencia Ficcion').
 ?- buscar_por_autor('Ray Bradbury', Resultados).
 Resultados = ['Fahrenheit 451'].
